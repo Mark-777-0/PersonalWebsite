@@ -1,0 +1,85 @@
+@import '../../global.scss';
+
+.contact {
+    background-color: $secondary;
+    display: flex;
+    overflow: hidden;
+    height: 90%;
+
+    .left{
+        display: flex;
+        flex:1;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            
+            width: 50%;
+            filter: invert(100%);
+        }
+    }
+
+    .right{
+        flex:1;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        @include mobile{
+            flex: 2;
+            margin-right: 2rem;
+        }
+        .boxBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px;
+        }
+        .card{
+            margin-top: 5rem;
+            width: 80%;
+            overflow: hidden;
+            
+
+        }
+
+        form{
+            overflow:hidden;
+        }
+
+
+
+
+        h2{
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            margin-top: 3rem;
+            
+        }
+
+
+            button{
+                display: flex;
+                align-self: center;
+                
+                color: white;
+                background-color: $secondary;
+                border-radius: 10px;
+                border: none;  
+                margin-top: 1.5rem;
+            }
+
+
+        }
+
+    }
+
+
+
+
+
